@@ -1,0 +1,12 @@
+interface Props{
+    children: any
+}
+
+export default function Popular(props : Props) {
+    return (
+        <div className="wrap-item wrap-item-popular">
+            <span className="label">Popular!</span>
+            {props.children}
+        </div>
+    )
+}
